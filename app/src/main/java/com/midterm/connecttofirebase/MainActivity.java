@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         listtruyen = findViewById(R.id.lv_truyen);
         listtruyen.setAdapter(myArrayAdapter);
 
-
+        //aloaloalo
 
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
         DatabaseReference myRef = firebaseDatabase.getReference("Truyen/TruyenChu/1/Chuong/2");
